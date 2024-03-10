@@ -1,0 +1,15 @@
+body{
+    margin: 0;
+    background: #6d6e75;
+}
+
+header{
+    background: #46465e;
+    padding: 20px 0px;
+}
+
+.logo{
+    width: 240px;
+    position: relative;
+    margin: 0 auto;
+}
