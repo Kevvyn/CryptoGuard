@@ -13,16 +13,41 @@
             <h1>
                 <img src="img-Proyect/logo-128px.png">
             </h1>
+        </div>
+        <div class="titulo">
             <h2>
                 CryptoGuard
             </h2>
-            
         </div>
+        
     </header>
     <main>
+        <form>
+            <label for="encrypted-Text">Ingrese el texto aqui</label>
+            <input type="text" id="encrypted-Text" class="input-padron" required>
+        
+        <div class="btn-encriptador">
+            <button class="container-boton">Encriptar</button>
+            <button class="container-boton">Desencriptar</button>
+        </div>
+        
+        <div class="messege-encrypted">
+            <label for="mensaje">Mensaje</label>
+            <h1>
+                <img src="img-Proyect/img-campoEncrip-128px.png" alt="">
+            </h1>
+            <textarea cols="70" rows="10" id="mensaje" class="campo-mensaje"></textarea required>
+        </div>
+        <div class="btn-encriptador">
+            <button class="container-boton">Copiar</button>
+        </div>
 
+        </form>
     </main>
 
+    <footer>
+        <p class="copyright">&copy Copyright CryptoGuard - 2024</p>
+    </footer>
 
     <script src="home-js.JS"></script>
 </body>
