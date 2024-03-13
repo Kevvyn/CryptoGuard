@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CryptoGuard</title>
-    <link rel="stylesheet" href="reset.css">
+    <title>CryptoGuard</title>   
     <link rel="stylesheet" href="home-style.css">
 </head>
 <body>
@@ -24,11 +23,11 @@
     <main>
         <form>
             <label for="encrypted-Text">Ingrese el texto aqui</label>
-            <input type="text" id="encrypted-Text" class="input-padron" required>
+            <input type="text" id="encrypted-Text" class="input-padron">
         
         <div class="btn-encriptador">
-            <button class="container-boton">Encriptar</button>
-            <button class="container-boton">Desencriptar</button>
+            <button type="button" id="encriptar-btn" onclick="encriptarTexto();" class="container-boton">Encriptar</button>
+            <button type="button" id="desencriptador-btn" onclick="desencriptadorTexto();" class="container-boton">Desencriptar</button>
         </div>
         
         <div class="messege-encrypted">
@@ -36,7 +35,7 @@
             <h1>
                 <img src="img-Proyect/img-campoEncrip-128px.png" alt="">
             </h1>
-            <textarea cols="70" rows="10" id="mensaje" class="campo-mensaje"></textarea required>
+            <textarea cols="70" rows="10" id="mensaje" class="campo-mensaje">No se ha encontrado un texto aun</textarea>
         </div>
         <div class="btn-encriptador">
             <button class="container-boton">Copiar</button>
@@ -49,6 +48,6 @@
         <p class="copyright">&copy Copyright CryptoGuard - 2024</p>
     </footer>
 
-    <script src="home-js.JS"></script>
+    <script src="home-js.js"></script>
 </body>
 </html>

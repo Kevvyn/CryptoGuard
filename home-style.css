@@ -1,10 +1,10 @@
 body{
     margin: 0;
-    background: #6d6e75;
+    background:white;
 }
 
 header{
-    background: #46465e;
+    background: #1dbfbf;
     padding: 20px 0px;
     border-bottom-width: 2px;
     border-bottom-style: solid;
@@ -32,7 +32,7 @@ form label {
     width: 1850px;
     height: 200px;
     margin: 30px 0 0 30px;
-    background: #46465e;  
+    background: #1dbfbf;  
     border: 2px solid #000000;
     border-radius: 10px;
     outline: none;
@@ -40,7 +40,7 @@ form label {
 
 .container-boton{
     text-align: center;
-    background: #46465e;  
+    background: #1dbfbf;  
     border: 2px solid #000000;
     border-radius: 10px;
     font-size: 20px;
@@ -55,7 +55,7 @@ form label {
 }
 
 .container-boton:hover{
-    background: #561324;
+    background: #125869;
     transform: scale(1.2);
 }
 
@@ -69,7 +69,7 @@ form label {
     width: 1630px;
     height: 200px;
     margin: 30px 0 0 250px;
-    background: #46465e;  
+    background: #1dbfbf;  
     border: 2px solid #000000;
     border-radius: 10px;
     outline: none;
@@ -77,11 +77,12 @@ form label {
 
 footer{
     text-align: center;
-    background: black;
+    background: #1dbfbf;
     padding: 40px;
     margin: 20px 0 0 0 ;
+    border-top: 2px solid black;
 }
 
 .copyright{
-    color: aliceblue;
+    color: black;
 }
