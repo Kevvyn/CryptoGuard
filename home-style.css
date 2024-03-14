@@ -86,3 +86,14 @@ footer{
 .copyright{
     color: black;
 }
+
+@media screen and (max-width:480px){
+    h1{
+        text-align: center;
+    }
+
+    .input-padron, .campo-mensaje{
+        width: 350px;
+        margin: 0 auto;
+    }
+}
