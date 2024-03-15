@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Anton&display=swap');
+
+
 body{
     margin: 0;
     background:white;
@@ -9,6 +13,12 @@ header{
     border-bottom-width: 2px;
     border-bottom-style: solid;
     border-bottom-color: black;
+}
+
+h1, h2 ,p, label, button, input, textarea, div {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .logo{
